@@ -7,5 +7,6 @@ Funktionen:
 --> dazu notwendig Kommunikation mit DB
 -Anlegen von Rechnungen u. Verträgen
 --> dazu notwendig upload von Bildern
+-Berechnung der monatlichen und jährlichen Ausgaben
 
 
