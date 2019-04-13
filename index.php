@@ -1,13 +1,15 @@
-<?php 
-	include("includes/config.php");
+<?php
+include "includes/config.php";
 
-	if (isset($_SESSION['userLoggedIn'])) {
-		$userLoggedIn = $_SESSION['userLoggedIn'];
-	} else {
-		header("Location: register.php");
-	}
+if (isset($_SESSION['userLoggedIn'])) {
+    $userLoggedIn = $_SESSION['userLoggedIn'];
+} else {
+    header("Location: register.php");
+}
 
- ?>
+$sidename = "Übersicht";
+
+?>
 
 <!DOCTYPE html>
 <html>
@@ -16,16 +18,10 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-	<div id="mainContainer">
-		<?php include("includes/topContainer.php") ?>
-		
-			Content auf der Übersichts Seite
+<?php include("includes/topContainer.php") ?>
 
+Das hier ist in der Mitte
 
-
-
-			</div>	
-		</div>
-	</div>
+<?php include("includes/lowerContainer.php") ?>
 </body>
 </html>

@@ -1,13 +1,15 @@
-<?php 
-	include("includes/config.php");
+<?php
+include "includes/config.php";
 
-	if (isset($_SESSION['userLoggedIn'])) {
-		$userLoggedIn = $_SESSION['userLoggedIn'];
-	} else {
-		header("Location: register.php");
-	}
+if (isset($_SESSION['userLoggedIn'])) {
+    $userLoggedIn = $_SESSION['userLoggedIn'];
+} else {
+    header("Location: register.php");
+}
 
- ?>
+$sidename = "Profil";
+
+?>
 
 <!DOCTYPE html>
 <html>
@@ -16,18 +18,11 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-	<div id="mainContainer">
-		<?php include("includes/topContainer.php") ?>
-		
-		<div id="headerAccount"><h1>Profil-Seite</h1></div>
-		<div id="logoutButtonContainer"><button id="logoutButton">Ausloggen</button></div>
-		
+<?php include("includes/topContainer.php") ?>
 
+Das hier ist in der Mitte
 
+<?php include("includes/lowerContainer.php") ?>
 
-
-			</div>	
-		</div>
-	</div>
 </body>
 </html>

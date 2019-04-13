@@ -4,15 +4,18 @@
 	<title></title>
 </head>
 <body>
+		<div id="mainContainer">
+			
+			<div id="menuContainer">
+				<div class="menuItem"><a href="index.php">Übersicht</a></div>
+				<div class="menuItem"><a href="contracts.php">Verträge</a></div>
+				<div class="menuItem"><a href="bills.php">Rechnungen</a></div>
+				<div class="menuItem"><a href="profil.php"><?php echo $userLoggedIn ?></a></div>
+			</div>
 
-	<div id="topContainer">
-		<div id="logo">
-			<img src="assets/images/logo.png" width="100%" height="100%">
-		</div>
-	</div>
-	<div id="lowerContainer">
-			<?php include("includes/menuContainer.php") ?>
 			<div id="contentContainer">
+				<div id="topContent"> <?php echo $sidename ?></div>
+				<div id="mainContent">
 
 </body>
 </html>

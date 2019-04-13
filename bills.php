@@ -7,6 +7,8 @@
 		header("Location: register.php");
 	}
 
+	$sidename = "Rechnungen";
+
  ?>
 
 <!DOCTYPE html>
@@ -16,16 +18,10 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-	<div id="mainContainer">
-		<?php include("includes/topContainer.php") ?>
-		
-			Content auf der Rechnungsseite Seite
+<?php include("includes/topContainer.php") ?>
 
+Das hier ist in der Mitte
 
-
-
-			</div>	
-		</div>
-	</div>
+<?php include("includes/lowerContainer.php") ?>
 </body>
 </html>
