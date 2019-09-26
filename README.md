@@ -9,10 +9,10 @@ Folgende Funktionen sollen implementiert werden:
 
 --> dazu notwendig Kommunikation mit DB
 
--Anlegen von Rechnungen u. Verträgen
+-Anlegen von Rechnungen
 
---> dazu notwendig upload von Bildern
+--> dazu notwendig upload von Daten und Zugehörigkeit zu Kategorien
 
--Berechnung der monatlichen und jährlichen Ausgaben
+-Berechnung der Ausgaben
 
 
